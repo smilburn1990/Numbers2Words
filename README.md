@@ -9,7 +9,7 @@ Sean Milburn
 
 #Requirements
 
-NodeJS
+Node.js versions >= 0.8.0
 
 #Instructions
 
