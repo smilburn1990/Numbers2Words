@@ -1,12 +1,32 @@
-# numbers2-words
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+#Numbers 2 Words
 
-## Build & development
+This project is an AngularJS program which takes any number between 0 and 1000 and returns the text value for that number
 
-Run `grunt` for building and `grunt serve` for preview.
+#Contributors
 
-## Testing
+Sean Milburn
 
-Running `grunt test` will run the unit tests with karma.
+#Requirements
+
+NodeJS
+
+#Instructions
+
+-download project files<br>
+-cd into directory<br>
+-$npm install<br>
+-$grunt server
+
+#Libraries 
+
+JQuery
+
+#Styling
+
+Bootstrap
+
+#Browser compatibility
+
+Edge, Firefox, Chrome
+
