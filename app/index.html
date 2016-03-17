@@ -1,0 +1,24 @@
+<!doctype html> 
+<html ng-app="numbersToWords">
+  <head>
+    <title>numbers 2 words</title>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css" />
+  </head>
+  <body ng-controller="transformCtrl" class="bg-primary" style="font-family: Inconsolata;" ng-init="">
+    <h1 style="text-align:center">numbers 2 words</h1> 
+    <div class="row" style="text-align:center;padding:20px">
+    <form ng-submit="userClick(entry)" style="display:inline-flex">
+        <input type="text" id="search-bar" class="form-control input-lg" ng-model="entry" placeholder="Enter a number..." />
+        <button id="search-button" class="btn btn-success btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+    </form>
+      <h3>{{words}}</h3>
+    </div>
+    <script src="components/jquery/dist/jquery.js"></script>
+    <script src="components/angular/angular.js"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
